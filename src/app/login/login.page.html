@@ -1,0 +1,19 @@
+<ion-card>
+  <h4>Insert your credentials</h4>
+<br>
+  <ion-item>
+    <ion-label stacked>Username</ion-label>
+    <ion-input [(ngModel)]="username"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label stacked>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  <br>
+  <div>
+    <ion-button  (click)="signIn()">
+      SIGN IN
+    </ion-button>
+  </div>
+</ion-card>

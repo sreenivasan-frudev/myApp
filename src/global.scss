@@ -24,3 +24,15 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+:root {
+    --primary: #ed48a7;
+    --secondary: #089eef;
+    --bg-color: #8ea4fb;
+    --text-light: #f5f1f1;
+    --text-dark: #616161;
+    --text-black: #000;
+    --red_color: #ec0909;
+    --white: #fff;
+    --transparent: rgba(0, 0, 0, 0.11);
+  }
